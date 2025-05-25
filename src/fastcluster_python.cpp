@@ -12,7 +12,7 @@
 // __STDC_LIMIT_MACROS is defined.
 #define __STDC_LIMIT_MACROS
 
-#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+#define NPY_NO_DEPRECATED_API NPY_2_0_API_VERSION
 
 #if __GNUC__ > 4 || (__GNUC__ == 4 && (__GNUC_MINOR__ >= 6))
 #define HAVE_DIAGNOSTIC 1
